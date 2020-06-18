@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        onclick="mUp(this)"
+        src="./img/client-1.png"
+        alt=""
+      />
+
+      <div class="header">
+        <img src="./img/icon.jpg" alt="" />
+        <p>Alabo Excel <br />Admin</p>
+      </div>
+    </header>
+    <section id="status-bar">
+      <img
+        style="width: 200px; padding-left: 20px; padding-top: 20px;"
+        src="./img/client-1.png"
+        alt=""
+      />
+      <input
+        class="close"
+        onclick="document.getElementById('status-bar').style.display = 'none'"
+        type="button"
+        value="X"
+      />
+      <ul>
+        <a href="#"> <li class="first">Dashboard</li></a>
+        <a href="#"> <li>Verification</li></a>
+        <a href="#"> <li>Employers</li></a>
+        <a href="#"> <li>Employees</li></a>
+        <a href="#"> <li>Message</li></a>
+        <a href="#"><li>Support</li></a>
+        <a href="#"><li>FAQs</li></a>
+        <a href="#"> <li>Settings</li></a>
+      </ul>
+    </section>
+    <main>
+      <section id="container">
+        <h4>Dashboard</h4>
+        <div class="row">
+          <div class="col-lg-3 col-md-12 col-sm-12 first-item">
+            <p>TOTAL EMPLOYEES</p>
+            <h3>15,000</h3>
+            <span
+              ><span style="color: green;">21%</span> increasse this month</span
+            >
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 second-item">
+            <p>TOTAL EMPLOYERS</p>
+            <h3>5,060</h3>
+            <span
+              ><span style="color: green;">21%</span> increasse this month</span
+            >
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 third-item">
+            <p>TOTAL PROFIT</p>
+            <h3>15,000,000</h3>
+            <span
+              ><span style="color: green;">21%</span> increasse this month</span
+            >
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-sm-12 section-all">
+            <h5>Monthly Statistics</h5>
+
+            <div class="section-one">
+              <span style="padding-left: 10px;"
+                >New Employee's
+                <span style="float: right; padding-right: 10px;"
+                  >2300</span
+                ></span
+              ><br />
+
+              <hr />
+              <span style="padding-left: 10px;"
+                >New Employer's
+                <span style="float: right; padding-right: 10px;">72</span></span
+              ><br />
+              <hr />
+              <span style="padding-left: 10px;"
+                >Hired Employee's
+                <span style="float: right; padding-right: 10px;"
+                  >306</span
+                ></span
+              ><br />
+              <hr />
+              <span style="padding-left: 10px;"
+                >Profit
+                <span style="float: right; padding-right: 10px;"
+                  >#234,000</span
+                ></span
+              >
+              <hr />
+              <input class="submit" type="submit" value="Export Data" />
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12 section-all">
+            <h5>Recent Activity</h5>
+            <div class="section-two">
+              <ul>
+                <li><img src="./img/icon.jpg" alt="" /></li>
+                <li>Alabo Excel</li>
+                <li>Joined</li>
+                <li>5 min ago</li>
+              </ul>
+              <ul>
+                <li><img src="./img/icon.jpg" alt="" /></li>
+                <li>Alabo Excel</li>
+                <li>Joined</li>
+                <li>5 min ago</li>
+              </ul>
+              <ul>
+                <li><img src="./img/icon.jpg" alt="" /></li>
+                <li>Alabo Excel</li>
+                <li>Joined</li>
+                <li>5 min ago</li>
+              </ul>
+              <ul>
+                <li><img src="./img/icon.jpg" alt="" /></li>
+                <li>Alabo Excel</li>
+                <li>Joined</li>
+                <li>5 min ago</li>
+              </ul>
+              <ul>
+                <li><img src="./img/icon.jpg" alt="" /></li>
+                <li>Alabo Excel</li>
+                <li>Joined</li>
+                <li>5 min ago</li>
+              </ul>
+              <ul>
+                <li><img src="./img/icon.jpg" alt="" /></li>
+                <li>Alabo Excel</li>
+                <li>Joined</li>
+                <li>5 min ago</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

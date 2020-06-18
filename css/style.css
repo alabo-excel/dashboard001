@@ -1,0 +1,150 @@
+body{
+    overflow-x: hidden;
+    background-color: whitesmoke;
+
+}
+header{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.07), 0 3px 1px -2px rgba(0, 0, 0, 0.1),
+    0 1px 5px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  height: 70px;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
+  background-color: white;
+}
+img{
+    width: 50px;
+    border-radius: 100px;
+    height: 40px;
+}
+#status-bar{
+    position: fixed;
+    top: 0;
+    width: 20%;
+    float: left;
+    height: 100vh;
+    background-color: rgb(23, 23, 139);
+}
+#status-bar ul{
+    padding-top: 50px;
+} 
+#status-bar ul li{
+    list-style-type: none;
+    padding: 10px;
+    color: white;
+    margin-left: -40px;
+    width: -100%;
+    padding-left: 20%;
+
+}
+
+a{
+    text-decoration: none;
+}
+.first{
+    background-color: skyblue;
+}
+.header{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding: 17px;
+}
+.header p{
+    margin-left: 10px;
+    line-height: 20px;
+}
+main{
+    margin-left: 25%;
+    margin-right: -9%;
+}
+main h4{
+    padding-top: 20px;
+}
+
+.first-item, .second-item, .third-item{
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.first-item{
+    background-color: rgb(1, 0, 87);
+    margin-right: 25px;
+
+}
+.second-item{
+    background-color: rgb(32, 18, 160);
+    margin-right: 25px;
+
+}
+.third-item{
+    background-color: rgb(88, 48, 233);
+    margin-right: 25px;
+
+}
+.section-one, .section-two{
+    background-color: white;
+    border-radius: 10px;
+}
+.setion-one .span{
+padding: 20px;
+}
+.section-two{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.submit{
+    background-color: rgb(32, 18, 160);
+    border: none;
+    color: white;
+    padding: 7px;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+.section-two ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 30px;
+}
+.section-all{
+    margin-top: 30px;
+}
+.section-all h5{
+    padding-bottom: 10px;
+}
+@media (max-width: 1000px){
+    #status-bar{
+        display: flexbox;
+        width: 90%;
+    }
+    
+}
+@media (max-width: 900px){
+ #status-bar{
+     display: none;
+ }
+ 
+ main{
+     margin: 20px;
+ }   
+}
+@media (max-width: 900px){
+ .first-item, .second-item, .third-item{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ 
+ .section-two ul li{
+     padding-right: 5px;
+ }   
+}
+@media (max-width: 400px){
+    #status-bar{
+        width: 90%;
+    }
+}
