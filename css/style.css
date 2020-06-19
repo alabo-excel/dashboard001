@@ -96,6 +96,9 @@ padding: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+#hamburger{
+    margin-top: 20px;
+}
 .submit{
     background-color: rgb(32, 18, 160);
     border: none;
@@ -146,5 +149,15 @@ padding: 20px;
 @media (max-width: 400px){
     #status-bar{
         width: 90%;
+    }
+}
+@media (max-width: 1500px){
+    .close{
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    .close{
+        display: block;
     }
 }
